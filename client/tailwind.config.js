@@ -1,13 +1,8 @@
-import { createContext, useContext, useState } from 'react'
 import { themes } from './utils/theme'
 
-export const ThemeContext = createContext()
 
-let yes = themes[0]
+let yes = themes[1]
 
-export const white = () => {
-  yes = themes[1]
-}
 
 /** @type {import('tailwindcss').Config} */
 export default {
